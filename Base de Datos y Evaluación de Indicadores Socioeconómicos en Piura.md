@@ -1,6 +1,6 @@
-# Referencias
-- INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
-- Datos abiertos del Gobierno Peruano
+# Referencias usadas en el análisis
+- Principalmente como base, se tomo al INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
+- Datos abiertos del Gobierno Peruano (para gráficas)
 - BCRP: Estadísticas económicas regionales
 # Métodología Científica
 
@@ -17,16 +17,16 @@ plt.plot(df['Año'], df['PBI'], marker='o', linewidth=2)
 plt.title('Evolución del PBI de Piura 2007-2023')
 plt.savefig('visualizations/pbi_evolution.png')
 ```
-# Hallazgos Principales
+# Hallazgos principales para el análisis
 - Crecimiento sostenido del PBI 2007-2014
 - Impacto del Fenómeno del Niño Costero (2017)
 - Resiliencia post-pandemia (2021-2023)
 - Transformación del régimen tributario
 
-# Autores
-- Eva Colan Huaranga
-- Giancarlo Gonzales Berrios  
-- Gaston Diaz Guerrero
+# Autores (3)
+- Eva Ariana Colan Huaranga (25120088)
+- Giancarlo Ruben Gonzales Berrios (25120101)
+- Gaston Matheo Diaz Guerrero (25120355)
 
 # Licencia
 Este proyecto está bajo la Licencia MIT.
