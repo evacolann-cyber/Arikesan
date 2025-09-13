@@ -1,8 +1,8 @@
-# 📚 Referencias
+# Referencias
 - INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
 - Datos abiertos del Gobierno Peruano
 - BCRP: Estadísticas económicas regionales
-# � Métodología Científica
+# Métodología Científica
 
 ### Extracción de Datos
 ```python
@@ -17,20 +17,20 @@ plt.plot(df['Año'], df['PBI'], marker='o', linewidth=2)
 plt.title('Evolución del PBI de Piura 2007-2023')
 plt.savefig('visualizations/pbi_evolution.png')
 ```
-# �🔍 Hallazgos Principales
+# Hallazgos Principales
 - Crecimiento sostenido del PBI 2007-2014
 - Impacto del Fenómeno del Niño Costero (2017)
 - Resiliencia post-pandemia (2021-2023)
 - Transformación del régimen tributario
 
-# 👥 Autores
+# Autores
 - Eva Colan Huaranga
 - Giancarlo Gonzales Berrios  
 - Gaston Diaz Guerrero
 
-# 📄 Licencia
+# Licencia
 Este proyecto está bajo la Licencia MIT.
-## 🧪 Ejemplo de Análisis en R
+## Ejemplo de Análisis en R
 
 ```r
 library(ggplot2)
@@ -49,7 +49,7 @@ ggplot(df, aes(x = Año, y = PBI)) +
 	theme_minimal()
 ggsave('visualizations/png/pbi_evolution_r.png', dpi = 300)
 ```
-## 🧪 Ejemplo de Análisis en Python
+## Ejemplo de Análisis en Python
 
 ```python
 import pandas as pd
@@ -69,7 +69,7 @@ plt.grid(True, alpha=0.3)
 plt.savefig('visualizations/png/pbi_evolution.png', dpi=300)
 plt.show()
 ```
-## ⚙️ Instalación de Dependencias
+## Instalación de Dependencias
 
 ### Python
 ```bash
@@ -80,17 +80,17 @@ pip install pandas matplotlib seaborn plotly numpy
 ```r
 install.packages(c("ggplot2", "dplyr", "tidyr", "plotly"))
 ```
-# 📊 Análisis Socioeconómico de Piura (2007-2023)
+# Análisis Socioeconómico de Piura (2007-2023)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![R](https://img.shields.io/badge/R-4.0%2B-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📖 Descripción
+## Descripción
 Análisis integral de 15 indicadores socioeconómicos del departamento de Piura mediante visualizaciones en Python y R para la formulación de políticas públicas y toma de decisiones.
 
-## 🎯 Objetivos
+## Objetivos
 
 ### Objetivo General
 Generar un estudio que sirva de guía para la formulación de políticas públicas mediante el análisis del progreso, fluctuaciones y trayectoria de los principales indicadores socioeconómicos de Piura.
@@ -101,7 +101,7 @@ Generar un estudio que sirva de guía para la formulación de políticas públic
 - Identificar etapas de auge, estancamiento o declive
 - Elaborar un análisis sintético de los descubrimientos
 
-## 📈 Variables Analizadas
+## Variables Analizadas
 
 | Código | Variable | Período |
 |--------|----------|---------|
@@ -121,7 +121,7 @@ Generar un estudio que sirva de guía para la formulación de políticas públic
 | 14 | Régimen tributario | 2016-2021 |
 | 15 | Empresas formales | 2016-2021 |
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Lenguajes de Programación
 - **Python 3.8+**: Análisis de datos y visualizaciones
