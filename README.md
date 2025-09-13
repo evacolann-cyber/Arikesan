@@ -1,4 +1,4 @@
-## Ejemplo de Gráfico Interactivo en Python
+## Para realizar el Gráfico Interactivo en Python
 ```python
 import plotly.express as px
 import pandas as pd
@@ -8,20 +8,20 @@ fig = px.line(df, x='Año', y='PBI', title='Evolución del PBI de Piura (2007-20
 fig.show()  # Muestra el gráfico interactivo en el navegador o notebook
 ```
 
-## Ejemplo de Gráfico Interactivo en R
+## Para realizar de Gráfico Interactivo en R
 ```r
 library(plotly)
 df <- read.csv('data/processed/piura_pbi.csv')
 fig <- plot_ly(df, x = ~Año, y = ~PBI, type = 'scatter', mode = 'lines+markers')
 fig  # Muestra el gráfico interactivo
 ```
-# Referencias usadas
+# Referencias usadas en el análisis
 - Principalmente como base, se tomo al INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
 - Datos abiertos del Gobierno Peruano (para gráficas)
 - BCRP: Estadísticas económicas regionales
 # Métodología Científica
 
-### Extracción de Datos
+### Extracción de Datos (programas)
 ```python
 # Ejemplo de código usado
 import pandas as pd
@@ -34,7 +34,7 @@ plt.plot(df['Año'], df['PBI'], marker='o', linewidth=2)
 plt.title('Evolución del PBI de Piura 2007-2023')
 plt.savefig('visualizations/pbi_evolution.png')
 ```
-# Hallazgos Principales
+# Hallazgos principales para el análisis
 - Crecimiento sostenido del PBI 2007-2014
 - Impacto del Fenómeno del Niño Costero (2017)
 - Resiliencia post-pandemia (2021-2023)
