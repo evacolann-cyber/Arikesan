@@ -16,8 +16,8 @@ fig <- plot_ly(df, x = ~Año, y = ~PBI, type = 'scatter', mode = 'lines+markers'
 fig  # Muestra el gráfico interactivo
 ```
 # Referencias usadas
-- Principalmente INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
-- Datos abiertos del Gobierno Peruano
+- Principalmente como base, se tomo al INEI: https://m.inei.gob.pe/estadisticas/indice-tematico/
+- Datos abiertos del Gobierno Peruano (para gráficas)
 - BCRP: Estadísticas económicas regionales
 # Métodología Científica
 
@@ -41,9 +41,9 @@ plt.savefig('visualizations/pbi_evolution.png')
 - Transformación del régimen tributario
 
 # Autores (3)
-- Eva Colan Huaranga
-- Giancarlo Gonzales Berrios  
-- Gaston Diaz Guerrero
+- Eva Ariana Colan Huaranga (25120088)
+- Giancarlo Ruben Gonzales Berrios  (25120101)
+- Gaston Matheo Diaz Guerrero (25120355)
 
 # Licencia
 Este proyecto está bajo la Licencia MIT.
